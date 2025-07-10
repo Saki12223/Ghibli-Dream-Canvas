@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saqib Kamal's Ghibli Dream Canvas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #4A7C59; /* Deeper Fern Green */
+      --primary-hover: #5B8C6A;
+      --secondary-color: #FDFCF8; /* Warmer Parchment */
+      --background-color: rgba(255, 255, 255, 0.75); /* Frosted Glass */
+      --text-color: #38423B; /* Darker, Softer Green */
+      --text-light: #7E8570;
+      --border-color: #EAE3D9; /* Softer Sand */
+      --shadow-color: rgba(40, 50, 40, 0.1);
+      --accent-color: #B9975B; /* Muted Gold */
+      --error-color: #C7524F;
+      --error-bg: #F9EBEA;
+    }
+    body {
+      font-family: 'Maitree', serif;
+      background-color: #e0e8f0;
+      background-image: linear-gradient(to top, #d2d9e2 0%, #eef1f5 100%);
+      color: var(--text-color);
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    #root {
+      width: 100%;
+      max-width: 900px;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.9.0",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react/": "https://esm.sh/react@^19.1.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

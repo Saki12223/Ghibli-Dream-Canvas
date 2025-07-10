@@ -1,0 +1,5 @@
+{
+  "description": "A web application that uses AI to generate Ghibli-style images from text prompts or by transforming user-uploaded photos, powered by the Gemini API.",
+  "requestFramePermissions": [],
+  "name": "App"
+}
